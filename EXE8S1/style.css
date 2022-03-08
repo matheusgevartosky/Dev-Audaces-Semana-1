@@ -6,21 +6,19 @@
 body{
     background: #FFFFFF url("./images/bg.jpg") no-repeat left top fixed;
     padding-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-header footer{
+header {
     width: 100%;
     position: fixed;        
-    background: #333;
-    padding: 10px 0
-}
-
-header{
+    padding: 10px 0;
+    z-index: +1;
     display: flex;
     align-items: center;
     height:70px ;
     justify-content: space-evenly;
-    background-color: #ffffff10;
+    background-color: #1d1c1c10;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
 }
@@ -33,6 +31,8 @@ header{
 
 .navegador ul {
     display: flex; 
+    border: none;
+    padding: 0;
 }
 
 .navegador ul li{
@@ -42,6 +42,7 @@ header{
 
 main{
     margin-top: 25px;
+    padding-top: 80px;
     display: flex;
     flex-wrap: wrap;
     width: 80%;
@@ -50,18 +51,18 @@ main{
 
 }
 .container{
-    max-width: 350px;
+    max-width: 300px;
     width: auto;
-    height: 300px;
+    height: auto;
     background-color: #ffffff10;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    margin: 20px 30px;
+    margin: 20px 20px;
 
 }
 
 .card{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 

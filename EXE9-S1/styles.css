@@ -1,0 +1,85 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    max-width: 1070px;
+    /**in-width: 500px;**/
+
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+}
+
+.container{
+    max-width: 1070px;
+    min-width: none;
+    margin: auto; /** definindo o tamanho maximo da div e colocando a margem como auto a dive ira centralizar na tela **/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+     margin-top: 30px;
+}
+
+ul li{
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.content{
+    margin: 40px 30px;
+    padding: 25px;
+    line-height: 2;
+    
+}
+
+footer{
+    max-width: 1070px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 30px;
+    padding: 25px;
+    flex-wrap: wrap;
+    
+}
+
+.video{
+    width: 300px;
+    heitgh: 150px
+    
+}
+
+.divImg{
+    max-width: 300px;
+    min-width: auto;
+    heitgh: 150px; 
+    border: 0.5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img{
+    height: 50px;
+    width: 90px;
+    margin: 10px;
+}
+
+
+
+.docs{
+    max-width: 300px;
+    min-width: auto;
+    heitgh: 150px;
+    border: 0.5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: right;
+    padding: 15px;
+}
+
